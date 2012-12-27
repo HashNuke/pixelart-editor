@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pixel editor</title>
+  <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+  <script src="js/pixelpad.js" type="text/javascript"></script>
+
+  <style type="text/css">
+
+    body {
+      width: 600px;
+      margin: 0px auto;
+    }
+
+    .colorpit {
+      margin-top: 20px;
+    }
+
+    .color {
+      width: 25px;
+      height: 25px;
+      float: left;
+      margin: 1px;
+      border: 1px solid #DDD;
+    }
+
+    .paper {
+      padding: 0px;
+      border: 1px solid #DDD;
+    }
+
+    .actions {
+      padding-top: 20px;
+      clear:both;
+    }
+
+    button {
+      margin-right: 10px;
+      font-size: 25px;
+    }
+  </style>
+
+</head>
+<body>
+
+<h1>Pixel editor</h1>
+<p>well you can't edit right now, but you can create ;)</p>
+
+<p class="actions">
+  <button class="preview">Preview</button>
+  <button class="clear">Clear</button>
+  <button class="download">Download PNG</button>
+</p>
+
+<canvas class="paper"></canvas>
+
+<div class="colorpit"></div>
+
+
+</body>
+</html>
