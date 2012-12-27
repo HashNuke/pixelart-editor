@@ -1,6 +1,8 @@
-# Pixel editor
+# Pixelart editor
 
-Well, it works and here's a hosted demo - <http://akash.im/stuff/pixelart-editor/index.html>
+Name says it all. 
+Demo - <http://akash.im/stuff/pixelart-editor/index.html>
+
 
 ## Development
 
@@ -11,8 +13,9 @@ Clone the repo, compile the `js/pixelpad.coffee` to javascript and open index.ht
 If you are impatient, just copy-paste this into your terminal
 
     git clone https://github.com/HashNuke/pixelart-editor.git    
-    cd pixel-editor && coffee -c js/pixelpad.coffee
+    cd pixelart-editor && coffee -c js/pixelpad.coffee
     open index.html
+
 
 ## Why build this thing?
 
