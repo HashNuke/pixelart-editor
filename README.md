@@ -1,6 +1,5 @@
 # Pixelart editor
 
-Name says it all. 
 Demo - <http://akash.im/stuff/pixelart-editor/index.html>
 
 
