@@ -1,7 +1,6 @@
 # Pixelart editor
 
-Demo - <http://akash.im/stuff/pixelart-editor/index.html>
-
+Demo - <http://akash.im/stuff/pixelart-editor>
 
 ## Development
 
@@ -19,3 +18,4 @@ If you are impatient, just copy-paste this into your terminal
 ## Why build this thing?
 
 Pixel art fan here. Labor of love.
+
