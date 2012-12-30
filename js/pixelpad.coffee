@@ -55,7 +55,7 @@ $ ->
         $("<div/>")
           .css('background', "##{color}")
           .prop("class", "color")
-          .data("color", "##{color}")
+          .data("color", "#{color}")
           .appendTo(@colorPit)
 
 
