@@ -25,7 +25,14 @@
 
     .paper {
       padding: 0px;
+      float: left;
+    }
+
+    .paper .tile {
+      width: 30px;
+      height: 30px;
       border: 1px solid #DDD;
+      float: left;
     }
 
     .actions {
@@ -46,13 +53,11 @@
   <p>well you can't edit right now, but you can create ;)</p>
 
   <p class="actions">
-    <button class="preview">Preview</button>
     <button class="clear">Clear</button>
     <button class="download">Download PNG</button>
   </p>
 
-  <canvas class="paper"></canvas>
-
+  <div class="paper"></div>
   <div class="colorpit"></div>
 
 </body>
