@@ -48,7 +48,7 @@ $ ->
     preparePaper: ->
       for i in [0...(@options.tiles * @options.tiles)]
         $("<div class='tile'/>").appendTo(@paper)
-      @paper.css({"width": @options.width + (@options.tiles * 2)})
+      @paper.css({"width": @options.width + (@options.tiles + 1)})
 
     prepareColorPit: ->
       @colors.forEach (color)=>
